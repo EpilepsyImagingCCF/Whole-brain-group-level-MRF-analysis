@@ -1,8 +1,8 @@
 # MRI-Negative Focal Epilepsy Analysis Pipeline Using MR Fingerprinting
 This repository accompanies the research paper:
 
-Su TY, Tang Y, Choi JY, Hu S, Sakaie K, Murakami H, Jones S, Blümcke I, Najm I, Ma D, Wang ZI.
-Evaluating whole-brain tissue-property changes in MRI-negative pharmacoresistant focal epilepsies using MR fingerprinting.
+**Su TY, Tang Y, Choi JY, Hu S, Sakaie K, Murakami H, Jones S, Blümcke I, Najm I, Ma D, Wang ZI.**  
+_Evaluating whole-brain tissue-property changes in MRI-negative pharmacoresistant focal epilepsies using MR fingerprinting._  
 Epilepsia. 2023 Feb;64(2):430–442. doi: 10.1111/epi.17488
 
 ## Pipeline Overview
