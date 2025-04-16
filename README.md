@@ -37,27 +37,28 @@ Reference: https://web.mit.edu/fsl_v5.0.10/fsl/doc/wiki/FLIRT(2f)UserGuide.html
 
 **6. Data Organization**  
 Organize your data in the following structure:  
+
 Data/  
-  T1/  
-    Patient01.nii  
-    Patient02.nii  
-    ...  
-    HCs01.nii  
-    HCs02.nii  
-    ...  
-  T2/  
-    Patient01.nii  
-    Patient02.nii  
-    ...  
-    HCs01.nii  
-    HCs02.nii  
-    ...  
+├── T1/  
+│   ├── Patient01.nii  
+│   ├── Patient02.nii  
+│   ├── ...  
+│   ├── HCs01.nii  
+│   ├── HCs02.nii  
+│   └── ...  
+├── T2/  
+│   ├── Patient01.nii  
+│   ├── Patient02.nii  
+│   ├── ...  
+│   ├── HCs01.nii  
+│   ├── HCs02.nii  
+│   └── ...  
     
 **7. (Optional) Spatial Smoothing with SPM**  
 Apply smoothing using a Gaussian kernel to improve signal-to-noise ratio.  
 Reference: https://andysbrainbook.readthedocs.io/en/latest/SPM/SPM_Short_Course/SPM_04_Preprocessing/06_SPM_Smoothing.html  
 
-**8. Save Smoothed Files**  
+**8. (Optional) Save Smoothed Files**  
 Place the smoothed images into the same directory structure as above.  
 
 **9. Merge NIfTI Files**  
